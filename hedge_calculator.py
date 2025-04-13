@@ -1,7 +1,7 @@
 import streamlit as st
 
 def hedge_bet_calculator():
-    st.title("Cricket Betting Hedge Calculator")
+    st.title("Cricket Calculator by Khatu Shyam Singh")
     st.write("Enter your initial back bet and current lay odds to calculate hedge strategy.")
 
     back_odds = st.number_input("Back Odds", min_value=1.01, step=0.01)
